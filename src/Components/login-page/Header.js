@@ -8,7 +8,7 @@ export default function Header() {
     return (
     
         <main className=''>
-            <header className='w-[1580px] sm:flex justify-center sm:justify-between'>
+            <header className='max-w-[1580px] mx-auto sm:flex justify-center sm:justify-between'>
                 <div className=''>
                     <Image className=" px-4 py-4 " src='/assets/images/button.png' width={475} height={239} alt="" />
                 </div>

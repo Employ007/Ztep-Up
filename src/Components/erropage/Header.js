@@ -4,8 +4,8 @@ import Image from 'next/image'
 export default function Header() {
   return (
     <main className=''>
-            <header className='w-[1580px] sm:flex justify-center   sm:justify-between'>
-                <div className=''>
+            <header className='max-w-[1580px] mx-auto sm:flex justify-center   sm:justify-between'>
+                <div className='max-w-[475px]'>
                     <Image className=" px-4 py-4 " src='/assets/images/button.png' width={475} height={239} alt="" />
                 </div>
                 <div className='flex'>
@@ -13,7 +13,7 @@ export default function Header() {
                     <button className='bg-black w-[143px] h-[36px] text-white text-[20px] mt-6 rounded-md mx-2'>Start Selling</button>
                 </div>
                 </header>
-                <div className='my-auto w-full h-full'>
+                <div className='my-auto max-w-[1580px] mx-auto pt-[100px] h-full'>
 
                 
                 <div className=' h-full flex justify-center w-full  '>
